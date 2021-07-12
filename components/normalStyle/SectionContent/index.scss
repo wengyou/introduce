@@ -1,0 +1,59 @@
+@import "../base.scss";
+
+.artIntro {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 0;
+  span {
+    font-size: 18px;
+    font-weight: 500;
+    color: $b;
+  }
+  .artTime {
+    font-size: 16px;
+  }
+  .artTag {
+    border: 1px solid $b;
+    border-radius: 5px;
+    padding: 2px 6px;
+    text-align: center;
+  }
+}
+
+.artContent {
+  line-height: 30px;
+  text-align: justify;
+  word-break: break-all;
+  font-size: 17px;
+  position: relative;
+  margin: 8px 0;
+  strong {
+    padding: 2px 4px;
+    margin: 0 10px;
+    background-color: #9370DB;
+    color: #fff;
+    font-weight: 300;
+    border-radius: 3px;
+  }
+  em {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    color: #383838;
+    font-weight: 300;
+    margin: 0 3px;
+    padding: 0 4px;
+    background-color: #f6f6f6;
+  }
+  i {
+    font-style: normal;
+    display: inline-block;
+    background: #8E2BA2;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin: 0 8px 0 2px;
+  }
+}
